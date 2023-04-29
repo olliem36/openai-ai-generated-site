@@ -1,0 +1,39 @@
+.content {
+    margin: 2rem;
+  }
+  
+  .content-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .tool-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .tool-card {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    width: calc(50% - 2rem);
+  }
+  
+  .tool-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .tool-card h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .tool-card p {
+    font-size: 1rem;
+  }
+  
